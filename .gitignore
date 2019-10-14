@@ -1,0 +1,16 @@
+.vscode/
+
+*.pyc
+
+*~
+__pycache__
+
+myvenv
+
+db.sqlite3
+
+/static
+
+.DS_Store
+
+/secondhand_server/secret.json

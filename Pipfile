@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[packages]
+django = "~=2.2.5"
+requests = "*"
+bs4 = "*"
+selenium = "*"
+django-cors-headers = "*"
+mysqlclient = "*"
+konlpy = "*"
+pycryptodome = "*"
+authlib = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
